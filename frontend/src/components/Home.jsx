@@ -30,7 +30,6 @@ const Home = () => {
 
   return (
     <Box sx={{ padding: 2, backgroundColor: "white" }}>
-      <Typography variant="h3" component="h1" gutterBottom align="center">BlogApp</Typography>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", gap: 2 }}>
         {posts.map((post) => (
           <Card key={post.id} sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', marginBottom: 2 }}>
